@@ -1,7 +1,16 @@
 # V2Ray TV
 
-Public Android TV ARMv7 APK release channel.
+[Скачать последнюю версию](https://github.com/tohaa28/v2ray-tv/releases/latest)
 
-Signed APKs and SHA256SUMS will appear under Releases after a signed build is published. No APK release is available yet.
+Приложение для Android TV. В релизах доступны два APK:
 
-No private build sources, VPN configurations, access tokens or signing keys are stored here.
+- `armeabi-v7a` — для 32-битных ТВ и приставок.
+- `arm64-v8a` — для 64-битных устройств.
+
+При обновлении приложение выбирает подходящий APK автоматически. Файл `SHA256SUMS` содержит контрольные суммы.
+
+В комплект входят четыре публичные подписки: BLACK_LTE, WHITE_LITE, BLACK_FULL, WHITE_FULL. При первом запуске требуется интернет для загрузки серверов и однократное системное разрешение на VPN.
+
+Сохраняйте резервную копию настроек перед переходом со старых debug-сборок: у них может быть другая подпись. Последующие стабильные релизы используют постоянный ключ.
+
+Этот репозиторий содержит информационную страницу и публичные файлы релизов.
